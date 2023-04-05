@@ -1,0 +1,42 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./header.css');
+
+/* Alona Karas */
+@import url('./header.css');
+
+/* Anna Ponizenko */
+@import url('./hero.css');
+
+/* Anton Vasyliev */
+@import url('./advantages.css');
+
+/* Elizabeth Balaklei */
+@import url('./unique-components.css');
+
+/* Nazar Kotiash */
+@import url('./how-its-made.css');
+
+/* Ruslan */
+@import url('./our-products.css');
+
+/* Vladyslav Parkhomenko */
+@import url('./top-sellers.css');
+
+/* Александр Юрьев */
+@import url('./reviews.css');
+
+/* Анна */
+@import url('./subscribe.css');
+
+/* Илья Мельниченко */
+@import url('./footer.css');
+
+/* Artem Severin */
+@import url('./buy-now-modal.css');
