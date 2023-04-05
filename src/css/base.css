@@ -83,10 +83,24 @@
    }
 }
 
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+}
+
 body {
    font-family: 'Montserrat', sans-serif;
    color: var(--color-black);
    background-color: var(--color-section-background);
+   font-size: 14px;
+   letter-spacing: -0.02em;
+   line-height: 1.28;
 }
 
 html {
