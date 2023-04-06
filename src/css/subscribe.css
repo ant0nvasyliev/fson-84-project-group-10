@@ -1,0 +1,246 @@
+.subscribe {
+    text-align: center;
+    max-height: 370px;
+    width: 100%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(0deg,
+     rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2)),
+      url(/img/subscribe/subscribe-img-mobile.jpg);
+}
+@media screen and (min-width: 375px) {
+    .subscribe {
+        width: 375px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .subscribe {
+             background-image: linear-gradient(0deg,
+             rgba(0, 0, 0, 0.2),
+             rgba(0, 0, 0, 0.2)),
+            url(/img/subscribe/subscribe-img-mobile@2x.jpg);
+    }
+}
+}
+@media screen and (min-width: 768px) {
+    .subscribe {
+        width: 768px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+        background-image: linear-gradient(0deg,
+     rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2)),
+      url(/img/subscribe/subscribe-img-tablet.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .subscribe {
+             background-image: linear-gradient(0deg,
+             rgba(0, 0, 0, 0.2),
+             rgba(0, 0, 0, 0.2)),
+            url(/img/subscribe/subscribe-img-tablet@2x.jpg);
+    }
+     }
+    }
+    @media screen and (min-width: 1200px) {
+    .subscribe {
+        width: 1200px;
+        background-image: linear-gradient(0deg,
+             rgba(0, 0, 0, 0.2),
+             rgba(0, 0, 0, 0.2)),
+            url(/img/subscribe/subscribe-img-desktop.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .subscribe {
+             background-image: linear-gradient(0deg,
+             rgba(0, 0, 0, 0.2),
+             rgba(0, 0, 0, 0.2)),
+            url(/img/subscribe/subscribe-img-desktop@2x.jpg);
+    }
+}
+}
+.subscribe_title {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: var(--color-white);
+}
+.subscribe_text {
+    display: inline-block;
+    width: 326px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: var(--color-white);
+}
+@media screen and (min-width: 768px) {
+    .subscribe_text {
+        width:467px;
+
+    }
+}
+.subscribe_button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--color-orange);
+    width: 172px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17.07px;
+    color: var(--color-white);
+    transition: background-color, color 200ms linear;
+}
+.subscribe_button:hover, .subscribe_button:focus {
+    background: #FCF1E0;
+    color: var(--color-orange);
+}
+.subscribe-modal__form {
+    z-index: 50;
+    padding: 0;
+    display: none;
+    width: 311px;
+    height: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--color-white);
+}
+.subscribe-modal__form.active {
+   display: block;
+}
+@media screen and (min-width: 768px) {
+    .subscribe-modal__form {
+        width: 538px;
+        height: 412px;
+    }
+        }
+.subscribe-modal {
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-right: 24px;
+}
+@media screen and (min-width: 768px) {
+    .subscribe-modal {
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+}
+
+.subscribe-modal__background {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 169px;
+    background-image: url(/img/subscribe/subscribe-modal-img-mobile.jpg);
+}
+@media screen and (min-width: 375px) {
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .subscribe-modal__background {
+             background-image: url(/img/subscribe/subscribe-modal-img-mobile\ 1@2x.jpg);
+    }
+}
+}
+@media screen and (min-width: 768px) {
+    .subscribe-modal__background {
+        background-image: url(/img/subscribe/subscribe-modal-img.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .subscribe-modal__background {
+             background-image: url(/img/subscribe/subscribe-modal-img@2x.jpg);
+    }
+}
+}
+.subscribe-modal__button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    stroke: var(--color-white);
+    background-color: rgba(255, 255, 255, 0);
+    top: 15px;
+    right: 14px;
+    border: none;
+}
+.subscribe-modal__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+.subscribe-modal__title {
+    font-size: 24px;
+    line-height: 28px;
+}
+    }
+.subscribe-modal__span {
+    color: var(--color-orange);
+}
+.subscribe-modal__position {
+    position: relative;
+}
+.subscribe-modal__input {
+    color: rgba(64, 64, 64, 0.3);
+    border-color: rgba(17, 17, 17, 0.05);
+    width: 263px;
+    height: 45px;
+    padding-left: 18px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: -0.02em;
+}
+@media screen and (min-width: 768px) {
+    .subscribe-modal__input {
+        width: 313px;
+        height: 52px;
+        padding-left: 24px;
+    }
+        }
+.subscribe-modal__submit {
+    position: absolute;
+    right: 0;
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    width: 100px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    border:none;
+    border-radius: 100px;
+} 
+@media screen and (min-width: 768px) {
+    .subscribe-modal__submit {
+        width: 137px;
+        height: 52px;
+    }
+}
