@@ -2,21 +2,21 @@
    --color-white-opacity: rgba(255, 255, 255, 0.5);
 }
 
-.section-advantages {
+.advantages {
    background-color: var(--color-dark-purple);
    padding-top: 20px;
    padding-bottom: 36px;
 }
 
 @media (min-width: 768px) {
-   .section-advantages {
+   .advantages {
       padding-top: 50px;
       padding-bottom: 85px;
    }
 }
 
 @media (min-width: 1200px) {
-   .section-advantages {
+   .advantages {
       padding-top: 50px;
       padding-bottom: 51px;
       height: 344px;
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 768px) {
-   .adv-list {
+   .advantage-list {
       display: flex;
       max-width: 676px;
       flex-wrap: wrap;
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 1200px) {
-   .adv-list {
+   .advantage-list {
       display: flex;
       max-width: 1100px;
       flex-wrap: nowrap;
@@ -43,39 +43,39 @@
    }
 }
 
-.adv-item {
+.advantage-list-item {
    color: var(--color-white);
 }
 
 @media (min-width: 1200px) {
-   .adv-item {
+   .advantage-list-item {
       margin: 0;
       position: relative;
    }
 }
 
-.adv-item:nth-child(1) {
+.advantage-list-item:nth-child(1) {
    margin-bottom: 38px;
 }
 
-.adv-item:nth-child(2) {
+.advantage-list-item:nth-child(2) {
    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-   .adv-item:nth-child(1) {
+   .advantage-list-item:nth-child(1) {
       margin: 0;
    }
 }
 
 @media (min-width: 768px) {
-   .adv-item:nth-child(2) {
+   .advantage-list-item:nth-child(2) {
       margin: 0;
    }
 }
 
 @media (min-width: 1200px) {
-   .adv-item:nth-child(1)::after {
+   .advantage-list-item:nth-child(1)::after {
       content: '';
       position: absolute;
       width: 124px;
@@ -89,13 +89,13 @@
 }
 
 @media (min-width: 1200px) {
-   .adv-item:nth-child(2) {
+   .advantage-list-item:nth-child(2) {
       margin: 0;
    }
 }
 
 @media (min-width: 1200px) {
-   .adv-item:nth-child(2)::after {
+   .advantage-list-item:nth-child(2)::after {
       content: '';
       position: absolute;
       width: 124px;
@@ -108,7 +108,7 @@
    }
 }
 
-.adv-div-icon {
+.advantage-icon-container {
    width: 62px;
    height: 62px;
    margin-bottom: 22px;
@@ -119,12 +119,12 @@
    justify-content: center;
 }
 
-.avd-icon {
+.advantage-icon {
    width: 32px;
    height: 32px;
 }
 
-.adv-title {
+.advantage-title {
    font-weight: 600;
    font-size: 18px;
    line-height: 22px;
