@@ -15,14 +15,83 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/fson-84-project-group-10/assets/index-36d99724.js"></script>
+    <script type="module" crossorigin src="/fson-84-project-group-10/assets/index-9b5484a4.js"></script>
     <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-a4098b4e.css">
   </head>
   <body>
-    <header>
-      <!-- Alona Karas -->
-      
-    </header>
+    <!-- Alona Karas -->
+    <header class="header" id="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo">
+        <span class="header-logo-span">SIMPLY</span>CHOCOLATE
+        <svg width="21" height="21">
+          <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#main-logo-icon"></use>
+        </svg>
+      </a>
+      <ul class="header-list list">
+        <li class="header-list-item">
+          <a href="#header" class="header-list-link">Home</a>
+        </li>
+        <li class="header-list-item">
+          <a href="" class="header-list-link">How it's made?</a>
+        </li>
+        <li class="header-list-item">
+          <a href="" class="header-list-link">Our products</a>
+        </li>
+        <li class="header-list-item">
+          <a href="" class="header-list-link">Top sellers</a>
+        </li>
+        <li class="header-list-item">
+          <a href="" class="header-list-link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="header-socials-list list">
+      <li class="header-socials-item">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="header-socials-link"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-socials-item">
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+          class="header-socials-link"
+          aria-label=""
+        >
+          <svg width="24" height="24">
+            <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#twitter-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <button
+      type="button"
+      class="header-menu-button js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      aria-label="menu button"
+    >
+      <svg width="24" height="16">
+        <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#burger-icon"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
     <main>
       <!-- Anna Ponizenko -->
       
@@ -127,8 +196,72 @@
       
     </footer>
 
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg width="32" height="32">
+      <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#mobile-menu-close-icon"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu-list list">
+    <li class="header-list-item">
+      <a href="#header" class="header-list-link">Home</a>
+    </li>
+    <li class="header-list-item">
+      <a href="" class="header-list-link">How it's made?</a>
+    </li>
+    <li class="header-list-item">
+      <a href="" class="header-list-link">Our products</a>
+    </li>
+    <li class="header-list-item">
+      <a href="" class="header-list-link">Top sellers</a>
+    </li>
+    <li class="header-list-item">
+      <a href="" class="header-list-link">Chocolate is loved</a>
+    </li>
+  </ul>
+
+  <ul class="mobile-socials-list list">
+    <li class="header-socials-item">
+      <a
+        href="https://instagram.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="header-socials-link"
+        aria-label=""
+      >
+        <svg width="24" height="24">
+          <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#instagram-icon"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="header-socials-item">
+      <a
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+        class="header-socials-link"
+        aria-label=""
+      >
+        <svg width="24" height="24">
+          <use href="/fson-84-project-group-10/assets/sprite-159498dd.svg#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
     <!-- Скрипт слайдера -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- body scroll lock library -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <!-- Головний скрипт -->
     
   </body>
