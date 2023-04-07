@@ -16,7 +16,7 @@
     />
     
     <script type="module" crossorigin src="/fson-84-project-group-10/assets/index-9b5484a4.js"></script>
-    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-08d71f6b.css">
+    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-c6801b06.css">
   </head>
   <body>
     <!-- Alona Karas -->
@@ -175,7 +175,7 @@
 <form class="subscribe-modal__form modal" data-modal="5" name="subscribe-modal" autocomplete="off">
     <div class="subscribe-modal__background">    
     <button class="subscribe-modal__button js-modal-close">
-        <svg width="28" height="28">
+        <svg class="subscribe-modal__icon" width="24" height="24">
             <use href="../img/sprite.svg#menu-modal-close-icon"></use>
         </svg>
     </button>
@@ -183,7 +183,7 @@
     <div class="subscribe-modal">
     <h2 class="subscribe-modal__title">Explore our <br><span class="subscribe-modal__span">new chocolate</span> first!</h2>
     <div class="subscribe-modal__position">
-    <input class="subscribe-modal__input" type="email" name="email" placeholder="Enter your email"/>
+    <input class="subscribe-modal__input" type="email" name="email" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Enter your email"/>
     <button class="subscribe-modal__submit" type="submit">Submit</button>
     
     </div>
