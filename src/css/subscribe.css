@@ -160,7 +160,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .subscribe-modal__background {
-             background-image: url(/img/subscribe/subscribe-modal-img-mobile\ 1@2x.jpg);
+             background-image: url(/img/subscribe/subscribe-modal-img-mobile@2x.jpg);
     }
 }
 }
