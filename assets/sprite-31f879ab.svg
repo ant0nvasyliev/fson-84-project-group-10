@@ -42,8 +42,8 @@
 <path fill="#ff5e00" style="fill: var(--color5, #ff5e00)" d="M25.6 26.934c3.157-2.717 5.144-6.719 5.144-11.184 0-0.008 0-0.017-0-0.025v0.001c0-0.007 0-0.016 0-0.024 0-4.465-1.987-8.466-5.125-11.168l-0.019-0.016c-3.157 2.717-5.144 6.719-5.144 11.184 0 0.008 0 0.017 0 0.025v-0.001c0 0.007-0 0.016-0 0.025 0 4.465 1.987 8.466 5.125 11.167l0.019 0.016z"></path>
 </symbol>
 <symbol id="x-close-icon" viewBox="0 0 32 32">
-<path fill="none" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M19.6 10.8l-8.8 8.8"></path>
-<path fill="none" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M10.8 10.8l8.8 8.8"></path>
+<path fill="" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M19.6 10.8l-8.8 8.8"></path>
+<path fill="" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M10.8 10.8l8.8 8.8"></path>
 </symbol>
 <symbol id="icon-flag" viewBox="0 0 41 32">
 <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.745 1.354h-40.435v30.092h40.435v-30.092z"></path>
