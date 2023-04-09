@@ -1,0 +1,134 @@
+.how-its-made-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 32px;
+}
+.how-its-made-title-text{
+    color: #FD9222;
+}
+.how-its-made-tablet,
+.how-its-made-desktop{
+    display: none;    
+}
+.how-its-made-box{
+    margin: 0 auto;
+    max-width: 335px;
+}
+.how-its-made-img{
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pastry-chef-preparing-chocolate-cake.jpg);
+    margin-bottom: 0;
+}
+.how-its-made-container{
+    position: relative;
+    margin-bottom: 20px;
+}
+.how-its-made-btn{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:0;
+    border: none;
+    background-color: transparent;
+}
+.how-its-made-description{
+    padding: 14px 20px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.how-its-made-descriptio-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.how-its-made-description-item{
+    margin-left: 14px;
+    list-style-type: disc;
+}
+
+.how-its-made-description-item:not(:last-child){
+    margin-bottom: 18px;
+}
+.how-its-made-description-item-text{
+    line-height: 1.29;
+    color: #111111;
+}
+.container-pdng{
+    padding: 72px 0;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .how-its-made-title {
+        font-size: 24px;
+        line-height: 1.16;
+    }
+    .how-its-made-mobile{
+        display: none;
+    }
+    .how-its-made-tablet{
+        display: block;
+        position: relative;
+        max-width: 614px;
+        margin: 0 auto;
+    }
+    .how-its-made-play{
+        width: 44px;
+        height: 44px;
+    }
+    .how-its-made-box{
+        max-width: 614px;
+    }
+    .how-its-made-description{
+        padding: 32px;
+    }
+    .how-its-made-descriptio-title{
+        margin-bottom: 28px;
+    }
+    .container-pdng{
+    padding: 100px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .how-its-made-tablet{
+        display: none;
+    }
+    .how-its-made-desktop{
+        display: block;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .how-its-made-box{
+        max-width: 1136px;
+        display: flex;
+        /* align-items: center; */
+        gap: 20px;
+        
+    }
+    .how-its-made-description{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 516px;
+        
+    }
+    .how-its-made-container{
+        margin-bottom: 0;
+    }
+    .container-pdng{
+    padding: 128px 0;
+    }
+}
