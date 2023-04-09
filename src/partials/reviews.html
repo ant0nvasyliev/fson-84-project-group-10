@@ -1,0 +1,160 @@
+<section class="reviews">
+  <div class="reviews-card container">
+    <h1 class="title-reviews"><span>Chocolate</span> is loved</h1>
+
+    <ul class="reviews-list list">
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="
+            ./img/reviews/victoria-dobrzhanska.png    1x,
+            ./img/reviews/victoria-dobrzhanska@2x.png 2x
+          "
+          src="./img/reviews/victoria-dobrzhanska.png"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Victoria Dobrzhanska</h2>
+        <p class="reviews-text">
+          I love this chocolate bar. Perfect combination of light crispy wafer,
+          covered in a thin layer chocolate.
+        </p>
+      </li>
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="
+            ./img/reviews/nazar-babenko.png    1x,
+            ./img/reviews/nazar-babenko@2x.png 2x
+          "
+          src="./img/reviews/nazar-babenko.png"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Nazar Babenko</h2>
+        <p class="reviews-text">
+          This chocolate confection is a delight! A delight! The wafer is light
+          and crisp, the hazelnut cream is smooth, and the chocolate is good.
+        </p>
+      </li>
+      <li class="reviews-item">
+        <img
+          width="80"
+          height="80"
+          class="reviews-img"
+          srcset="
+            ./img/reviews/olena-kampusch.png    1x,
+            ./img/reviews/olena-kampusch@2x.png 2x
+          "
+          src="./img/reviews/olena-kampusch.png"
+          alt="Photo"
+        />
+        <h2 class="reviews-name">Olena Kampusch</h2>
+        <p class="reviews-text">
+          Chocolate is a family favourite treat. Love the delicious smooth
+          chocolate and the creaminess inside. The wafer is soft but crunchy.
+        </p>
+      </li>
+    </ul>
+    <!-- <div class="slider-buttons">
+        <ul class="slider-buttons-list">
+          <li class="slider-buttons-item"></li>
+          <li class="slider-buttons-item"></li>
+          <li class="slider-buttons-item"></li>
+          <li class="slider-buttons-item"></li>
+        </ul>
+      </div> -->
+
+    <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          ...
+        </div>
+       
+        <div class="swiper-pagination"></div>
+      </div> -->
+    <button
+      type="button"
+      class="btn-reviews js-modal-open"
+      data-modal="1"
+      data-modal="2"
+    >
+      Leave a review
+    </button>
+  </div>
+  <div class="backdrop-reviews visually-hidden">
+    <div class="modal" data-modal="1">
+      <button
+        type="button"
+        class="reviews-modal-btn js-modal-close"
+        data-modal="2"
+      >
+        <svg class="reviews-svg" width="28" height="28">
+          <use href="./img/sprite.svg#x-close-icon "></use>
+        </svg>
+      </button>
+      <h2 class="reviews-modal-title">
+        LEAVE A REVIEW ABOUT<span>OUR CHOCOLATE</span>
+      </h2>
+      <form>
+        <ul class="modal-reviews-list list">
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="name">
+              <input
+                class="modal-reviews-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </label>
+          </li>
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="email">
+              <input
+                class="modal-reviews-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </label>
+          </li>
+          <div class="input-tel">
+            <li class="modal-reviews-item">
+              <input
+                class="modal-reviews-input-tel"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Phone number"
+                required
+              />
+              <p class="for-tel">+380</p>
+            </li>
+          </div>
+
+          <li class="modal-reviews-item">
+            <label class="modal-reviews-label" for="comment"></label>
+            <textarea
+              class="reviews-comment"
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter text"
+            ></textarea>
+          </li>
+        </ul>
+      </form>
+      <button type="submit" class="reviews-btn-modal-second">Send</button>
+    </div>
+  </div>
+  <div class="overlay js-overlay-modal"></div>
+</section>
