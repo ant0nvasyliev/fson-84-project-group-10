@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/fson-84-project-group-10/assets/index-95c91445.js"></script>
-    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-3163d293.css">
+    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-f07e1c5a.css">
   </head>
   <body>
     <!-- Alona Karas -->
@@ -625,19 +625,18 @@
 
       type="button"
       class="btn-reviews js-open-modal"
-      data-modal="1"
+     data-modal-open
       
     >
       Leave a review
     </button>
   </div>
-  <div class="backdrop-reviews visually-hidden ">
-    <div class="modal" data-modal="1">
+  <div class="backdrop-reviews is-hidden" data-modal>
+    <div class="modal">
       <button
         type="button"
-        class="reviews-modal-btn js-modal-close"
-        data-modal="2"
-        id="modal-close-btn"
+        class="reviews-modal-btn"
+        data-modal-close
       >
         <svg class="reviews-svg" width="28" height="28">
           <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#x-close-icon"></use>
@@ -927,6 +926,6 @@
     ></script>
     <!-- Головний скрипт -->
      
-     <script src="../js/example-modal.js"></script>
+     <script src="../js/explore.js"></script>
   </body>
 </html>
