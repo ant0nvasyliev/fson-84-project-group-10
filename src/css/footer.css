@@ -43,6 +43,7 @@ footer {
 }
 .footer-address {
   display: flex;
+  font-style: normal;
 }
 .footer-contact-item:first-child {
   margin-bottom: 4px;
@@ -117,6 +118,7 @@ footer {
 
   .footer-address {
     gap: 63px;
+    
   }
 }
 
@@ -144,5 +146,6 @@ footer {
     padding-bottom: 32px;
     margin-bottom: 32px;
     justify-content: space-between;
+
   }
 }
