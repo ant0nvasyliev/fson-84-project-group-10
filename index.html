@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/fson-84-project-group-10/assets/index-95c91445.js"></script>
-    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-2d08ee70.css">
+    <link rel="stylesheet" href="/fson-84-project-group-10/assets/index-3cd8fcc7.css">
   </head>
   <body>
     <!-- Alona Karas -->
@@ -749,8 +749,8 @@
 
 
       <!-- Анна -->
-      <section class="subscribe" id="subscribe">
-    <div class="container">
+      <section class="subscribe-background" id="subscribe">
+    <div class="subscribe container">
         <h2 class="subscribe_title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
         <p class="subscribe_text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
         <button class="subscribe_button js-open-modal" data-modal="5" type="button">Subscribe</button>
@@ -789,7 +789,7 @@
     <ul class="buy-now-modal__box_li">
         <li class="buy-now-modal__list">
             <img class="buy-now-modal__img"
-                 srcset="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png 1x, /fson-84-project-group-10/assets/modal-100g-img@2x-82abd1f6.png "
+                 srcset="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png 1x, /fson-84-project-group-10/assets/modal-100g-img@2x-82abd1f6.png 2x"
                  src="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png"
                  alt="milk chocolate"
                  width="84"
@@ -799,7 +799,7 @@
         </li>
         <li class="buy-now-modal__list">
             <img class="buy-now-modal__img"
-                 srcset="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png 1x, /fson-84-project-group-10/assets/modal-200g-img@2x-f8a53af0.png "
+                 srcset="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png 1x, /fson-84-project-group-10/assets/modal-200g-img@2x-f8a53af0.png 2x"
                  src="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png"
                  alt="white chocolate"
                  width="84" 
@@ -808,7 +808,7 @@
         </li>
         <li class="buy-now-modal__list">
             <img class="buy-now-modal__img" 
-                 srcset="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png 1x, /fson-84-project-group-10/assets/modal-300g-img@2x-0b5ea610.png "
+                 srcset="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png 1x, /fson-84-project-group-10/assets/modal-300g-img@2x-0b5ea610.png 2x"
                  src="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png"
                  alt="black chocolate"
                  width="84" 
@@ -816,16 +816,16 @@
             <button type="button" class="buy-now-modal__p">300 g</button>
         </li>
     </ul>
-    <label class="buy-now-modal__label" for="name surname">Personal information</label>
+    <label class="buy-now-modal__label" for="name">Personal information</label>
     <div class="buy-now-modal__name">
         <input class="buy-now-modal__input" type="text" name="name" id="name" required pattern="[a-zA-Z]+" placeholder="Name"/>
-        <input class="buy-now-modal__input" type="text" name="surname" id="surname" required pattern="[a-zA-Z]+" placeholder="Surname"/>
+        <input class="buy-now-modal__input" type="text" name="surname" required pattern="[a-zA-Z]+" placeholder="Surname"/>
     </div>
     <label class="buy-now-modal__label" for="email">Email</label>
     <input class="buy-now-modal__input" type="email" name="email" id="email" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Enter your email"/>
     <label class="buy-now-modal__label" for="tel">Phone number</label>
     <div class="buy-now-modal__tel_box">
-        <input  class="buy-now-modal__input buy-now-modal__input_tel" type="tel" name="tel" id="tel" placeholder="Phone number"/>
+        <input  class="buy-now-modal__input buy-now-modal__input_tel" type="tel" name="tel" id="tel" required pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" placeholder="Phone number"/>
         <div class="buy-now-modal__box_icon">
             <svg class="buy-now-modal__tel_icon" width="24" height="18">
                 <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#flag-icon"></use>
