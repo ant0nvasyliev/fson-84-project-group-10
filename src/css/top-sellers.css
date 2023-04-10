@@ -55,12 +55,12 @@
   color: #ffffff;
 } */
 .top-sellers-input:hover, .top-sellers-input:focus {
-  background: #FCF1E0;
+  
   color: var(--color-orange);
 }
 @media screen and (max-width: 767px) {
   .top-sellers {
-    background-color: #e2e2e2;
+    
     padding-bottom: 72px;
     
   }
