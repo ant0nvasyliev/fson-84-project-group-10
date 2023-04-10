@@ -226,22 +226,22 @@
   display: flex;
   justify-content: start;
   align-items: center;
-
   gap: 12px;
+}
 
+.scroll-txt {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.2;
-
   letter-spacing: -0.03em;
 
   color: var(--color-white);
   transition: color 200ms linear;
 }
 
-.hero-scroll:hover,
-.hero-scroll:focus {
+.hero-scroll:hover .scroll-txt,
+.hero-scroll:focus .scroll-txt {
   color: var(--color-orange);
 }
 
@@ -260,11 +260,17 @@
   transition: background-color 200ms linear;
 }
 
-.hero-icon:hover,
+.hero-scroll:hover .hero-icon,
+.hero-scroll:focus .hero-icon {
+  fill: white;
+  background-color: var(--color-orange);
+}
+
+/* .hero-icon:hover,
 .hero-icon:focus {
   background-color: var(--color-orange);
   fill: var(--color-white);
-}
+} */
 
 @media screen and (min-width: 768px) {
   .hero-scroll {
