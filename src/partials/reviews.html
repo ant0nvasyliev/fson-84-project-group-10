@@ -82,19 +82,18 @@
 
       type="button"
       class="btn-reviews js-open-modal"
-      data-modal="1"
+     data-modal-open
       
     >
       Leave a review
     </button>
   </div>
-  <div class="backdrop-reviews visually-hidden ">
-    <div class="modal" data-modal="1">
+  <div class="backdrop-reviews is-hidden" data-modal>
+    <div class="modal">
       <button
         type="button"
-        class="reviews-modal-btn js-modal-close"
-        data-modal="2"
-        id="modal-close-btn"
+        class="reviews-modal-btn"
+        data-modal-close
       >
         <svg class="reviews-svg" width="28" height="28">
           <use href="./img/sprite.svg#x-close-icon "></use>
