@@ -1,6 +1,6 @@
 .top-sellers {
-  background-color: #e2e2e2;
   
+  background-color: #fafafa;
 }
 /* .top-sellers {
 }
@@ -241,7 +241,7 @@
 
 @media screen and (min-width: 1200px) {
   .top-sellers {
-    background-color: #e2e2e2;
+    
     padding-bottom: 120px;
     
   }
