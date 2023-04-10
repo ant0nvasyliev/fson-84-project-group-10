@@ -155,9 +155,9 @@
     border-radius: 15px;
 }
 
-/* .swiper-pagination {
-    margin-top: 32px;
-} */
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -32px;
+}
 
 .swiper-pagination-bullet {
     width: 13px;
@@ -170,4 +170,8 @@
     height: 13px;
     border-radius: 50px;
     background-color: var(--color-orange);
+}
+
+.products-thumb-swiper {
+    position: relative;
 }
