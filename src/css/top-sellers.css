@@ -2,13 +2,7 @@
   
   background-color: #fafafa;
 }
-:root {
-  --color-black: #111111;
-  --color-dark-purple: #1E1823;
-  --color-orange: #FD9222;
-  --color-white: #FFFFFF;
-  --color-section-background: #E2E2E2;
-}
+
 /* .top-sellers {
 }
 
@@ -249,7 +243,7 @@
 @media screen and (min-width: 1200px) {
   .top-sellers {
     
-    padding-bottom: 120px;
+    padding-bottom: 128px;
     
   }
   .top-sellers-img {
