@@ -555,11 +555,11 @@
   <div class="container">
     <h2 class="top-sellers-titile">top <span class="sellers">sellers</span> </h2>
     
-    <ul class="top-sellers-ul">
+    <!-- <ul class="top-sellers-ul">
       <li class="top-sellers-li mb">
         <img
-          srcset="/fson-84-project-group-10/assets/chocolate-ingredients-desktop@2x-d9a15fbd.jpg 2x"
-          src="/fson-84-project-group-10/assets/chocolate-ingredients-desktop-5e806c02.jpg"
+          srcset="./img/top-sellers/chocolate-ingredients-desktop@2x.jpg 2x"
+          src="./img/top-sellers/chocolate-ingredients-desktop.jpg"
           class="top-sellers-img"
           alt="img1"
           width="368"
@@ -571,8 +571,8 @@
       
       <li class="top-sellers-li none">
         <img
-          srcset="/fson-84-project-group-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
-          src="/fson-84-project-group-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg"
+          srcset="./img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x"
+          src="./img/top-sellers/jenga-chocolate-desktop.jpg"
           class="top-sellers-img"
           alt="img2"
           width="368"
@@ -581,13 +581,79 @@
       </li>
       <li class="top-sellers-li">
         <img
-          srcset="/fson-84-project-group-10/assets/milk-mint-chocolate-desktop@2x-d969634e.jpg 2x"
-          src="/fson-84-project-group-10/assets/milk-mint-chocolate-desktop-f30cf4c9.jpg"
+          srcset="./img/top-sellers/milk-mint-chocolate-desktop@2x.jpg 2x"
+          src="./img/top-sellers/milk-mint-chocolate-desktop.jpg"
           class="top-sellers-img"
           alt="img3"
           width="368"
         />
         <p></p>
+      </li>
+    </ul> -->
+    <ul class="top-sellers-ul">
+      <li class="top-sellers-li mb">
+        <picture>
+          <source
+            srcset="/fson-84-project-group-10/assets/chocolate-ingredients-desktop-5e806c02.jpg 1x, /fson-84-project-group-10/assets/chocolate-ingredients-desktop@2x-d9a15fbd.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/chocolate-ingredients-tablet-659408e6.jpg 1x, /fson-84-project-group-10/assets/chocolate-ingredients-tablet@2x-f0c107a5.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/chocolate-ingredients-mobile-8344cb6c.jpg 1x, /fson-84-project-group-10/assets/chocolate-ingredients-mobile@2x-88ca2a9f.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/fson-84-project-group-10/assets/chocolate-ingredients-mobile-8344cb6c.jpg"
+            alt="chocolate-ingredients"
+            class="top-sellers-img"
+          />
+        </picture>
+        <p class="top-sellers-titile-mobile">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+      </li>
+      <li class="top-sellers-li none">
+        <picture>
+          <source
+            srcset="/fson-84-project-group-10/assets/milk-mint-chocolate-desktop-f30cf4c9.jpg 1x, /fson-84-project-group-10/assets/milk-mint-chocolate-desktop@2x-d969634e.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/milk-mint-chocolate-tablet-587aa654.jpg 1x, /fson-84-project-group-10/assets/milk-mint-chocolate-tablet@2x-f5bcb700.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/milk-mint-chocolate-mobile-c0b68e68.jpg 1x, /fson-84-project-group-10/assets/milk-mint-chocolate-mobile@2x-ad1daf9a.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/fson-84-project-group-10/assets/milk-mint-chocolate-mobile-c0b68e68.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
+      </li>
+      <li class="top-sellers-li">
+        <picture>
+          <source
+            srcset="/fson-84-project-group-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /fson-84-project-group-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /fson-84-project-group-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/fson-84-project-group-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg 1x, /fson-84-project-group-10/assets/jenga-chocolate-desktop@2x-1a642081.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/fson-84-project-group-10/assets/jenga-chocolate-desktop-3a4aba0c.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
       </li>
     </ul>
     <div class="top-sellers-box">
