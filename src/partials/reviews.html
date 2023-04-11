@@ -1,6 +1,6 @@
 <section class="reviews" id="chocolate-is-loved">
   <div class="reviews-card container">
-    <h1 class="title-reviews"><span>Chocolate</span> is loved</h1>
+    <h2 class="title-reviews"><span>Chocolate</span> is loved</h2>
 
     <ul class="reviews-list list">
       <li class="reviews-item">
@@ -81,19 +81,19 @@
     <button
 
       type="button"
-      class="btn-reviews"
-     data-modal-open
+      class="btn-reviews js-open-modal" data-modal="1"
+
       
     >
       Leave a review
     </button>
   </div>
-  <div class="backdrop-reviews is-hidden" data-modal>
-    <div class="modal">
+  <div class="backdrop-reviews" data-modal>
+    <div class="modal" data-modal="1">
       <button
         type="button"
-        class="reviews-modal-btn"
-        data-modal-close
+        class="reviews-modal-btn js-modal-close"
+        
       >
         <svg class="reviews-svg" width="28" height="28">
           <use href="./img/sprite.svg#x-close-icon "></use>
@@ -159,5 +159,5 @@
     </div>
   </div>
 
-
+<div class="overlay js-overlay-modal"></div>
 </section>
