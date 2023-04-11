@@ -62,7 +62,7 @@
     line-height: 1.29;
     color: #111111;
 }
-.container-pdng{
+.how-its-made{
     padding: 72px 0;
 }
 
@@ -97,7 +97,7 @@
     .how-its-made-descriptio-title{
         margin-bottom: 28px;
     }
-    .container-pdng{
+    .how-its-made{
     padding: 100px 0;
     }
 }
@@ -128,7 +128,7 @@
     .how-its-made-container{
         margin-bottom: 0;
     }
-    .container-pdng{
-    padding: 128px 0;
+    .how-its-made{
+        padding: 128px 0;
     }
 }
