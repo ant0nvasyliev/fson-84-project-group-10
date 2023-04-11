@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="top-sellers-titile">top <span class="sellers">sellers</span> </h2>
     
-    <ul class="top-sellers-ul">
+    <!-- <ul class="top-sellers-ul">
       <li class="top-sellers-li mb">
         <img
           srcset="./img/top-sellers/chocolate-ingredients-desktop@2x.jpg 2x"
@@ -35,6 +35,99 @@
           width="368"
         />
         <p></p>
+      </li>
+    </ul> -->
+    <ul class="top-sellers-ul">
+      <li class="top-sellers-li mb">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-desktop.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-tablet.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/chocolate-ingredients-mobile.jpg    1x,
+              /img/top-sellers/chocolate-ingredients-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/chocolate-ingredients-mobile.jpg"
+            alt="chocolate-ingredients"
+            class="top-sellers-img"
+          />
+        </picture>
+        <p class="top-sellers-titile-mobile">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+      </li>
+      <li class="top-sellers-li none">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-desktop.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-tablet.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/milk-mint-chocolate-mobile.jpg    1x,
+              /img/top-sellers/milk-mint-chocolate-mobile@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/milk-mint-chocolate-mobile.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
+      </li>
+      <li class="top-sellers-li">
+        <picture>
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-desktop.jpg    1x,
+              /img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-desktop.jpg    1x,
+              /img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/top-sellers/jenga-chocolate-desktop.jpg    1x,
+              /img/top-sellers/jenga-chocolate-desktop@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/img/top-sellers/jenga-chocolate-desktop.jpg"
+            alt="jenga-chocolate"
+            class="top-sellers-img"
+          />
+        </picture>
       </li>
     </ul>
     <div class="top-sellers-box">
