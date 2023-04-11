@@ -58,6 +58,7 @@
    --color-dark-purple: #1E1823;
    --color-orange: #FD9222;
    --color-white: #FFFFFF;
+   --color-background: #FAFAFA;
 }
 
 .container {
@@ -99,6 +100,7 @@ body {
    font-size: 14px;
    letter-spacing: -0.02em;
    line-height: 1.28;
+   background-color: var(--color-background);
 }
 
 html {
