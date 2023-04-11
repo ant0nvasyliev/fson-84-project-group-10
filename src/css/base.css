@@ -58,7 +58,6 @@
    --color-dark-purple: #1E1823;
    --color-orange: #FD9222;
    --color-white: #FFFFFF;
-   --color-section-background:#FAFAFA;;
 }
 
 .container {
@@ -97,7 +96,6 @@ clip: rect(0 0 0 0);
 body {
    font-family: 'Montserrat', sans-serif;
    color: var(--color-black);
-   background-color: var(--color-section-background);
    font-size: 14px;
    letter-spacing: -0.02em;
    line-height: 1.28;

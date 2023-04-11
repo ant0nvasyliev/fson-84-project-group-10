@@ -19,4 +19,32 @@ const swiper = new Swiper('.swiper', {
   // scrollbar: {
   //   el: '.swiper-scrollbar',
   // },
+
+
+  
+  
+// Added  RUSLAN -----------------------
+
+  slidesPerView: 1,
+  // spaceBetween: 18,
+  speed: 500,
+
+  breakpoints: {
+    // when window width is >= 375px
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 18
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 18
+    }
+  }
+
 });

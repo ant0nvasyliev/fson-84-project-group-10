@@ -1,0 +1,245 @@
+.components  {
+    padding-top: 72px;
+}
+@media screen and (min-width:768px) {
+    .components {
+        padding-top: 100px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .components {
+        padding-top: 128px;
+    }
+}
+
+/* Заголовок з текстом */
+
+.components-block {
+    max-width: 335px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .components-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 486px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Заголовок */
+
+.components-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+}
+@media screen and (min-width:768px) {
+    .components-title {
+        max-width: 411px;
+    }
+}
+.title-accent {
+    color: var(--color-orange);
+}
+
+/* Текст після заголовка */
+
+.components-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.13;
+    letter-spacing: -0.02em;
+    max-width: 435px;
+}
+@media screen and (min-width:768px) {
+    .components-text {
+        max-width: 486px;
+    }
+}
+
+/* Список */
+
+@media screen and (min-width: 768px) {
+    .components-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    }     
+}
+@media screen and (min-width: 1200px) {
+    .components-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 19px;
+    }     
+}
+
+.card-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+@media screen and (max-width: 767px) {
+    .card-wrap {
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+    .card-wrap:last-child {
+        margin-bottom: 0;
+    }
+}
+.reverce {    
+    flex-direction: column-reverse;
+}
+@media screen and (min-width: 1200px) {
+    .card-wrap {
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 767px) {
+    .reverce {
+        flex-direction: column;
+    }
+}
+
+.components-item {
+    position: relative;    
+    width: 335px;
+    height: 270px;
+    border-radius: 15px;
+    padding: 28px;
+}
+
+@media screen and (max-width: 400px) {
+    .components-item {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .components-item {
+        width: 336px;
+    }
+    
+    
+}
+@media screen and (min-width: 1200px) {
+    .components-item {
+    width: 270px;
+    }
+    
+}
+
+
+.item-orange {
+    background-color: var(--color-orange);
+}
+.item-white {
+    background-color: var(--color-white);
+    border: 1px solid #FD9222;
+}
+.item-black {
+    background-color: var(--color-black);
+}
+
+/* Картинки */
+
+.img-wrap {
+    min-width: 224px;
+    margin: 0 auto;
+    width: 100px;
+}
+.components-img {
+    display: inline;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width:1200) {
+    .components-img {
+        margin-bottom: 36px;
+}
+
+}
+.components-item-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.13;    
+    letter-spacing: -0.02em;
+    /* margin-left: 28px; */
+    /* margin-bottom: 28px; */
+}
+
+.name-white {
+    color: var(--color-white);
+}
+
+/* Вспливаюче вікно */
+
+
+.about {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    height: 100%;
+    background-color: var(--color-white);
+    padding: 28px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+
+}
+
+.components-item:hover .about {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+    
+}
+
+.about-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+}
+.about-button {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+.button-box {
+    font-size: 10px;
+    padding: 6px 16px;
+    border-radius: 35px;
+}
+.button-orange {    
+    background-color: var(--color-orange);
+}
+.button-white {
+    border: 1px solid #FD9222;
+}
+.about-text {
+    max-height: 146px;
+    overflow: scroll;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+
+/* 
+.components-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     */
