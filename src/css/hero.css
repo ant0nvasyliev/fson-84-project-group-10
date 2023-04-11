@@ -1,7 +1,11 @@
 .hero {
   padding-bottom: 72px;
-  margin-right: auto;
-  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .hero {
+      padding-bottom: 50px;
+    }
 }
 
 .hero-container {
@@ -41,7 +45,7 @@
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(../img/hero/hero-mobile-img@2x.jpg);
+      url(/img/hero/hero-mobile-img@2x.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -54,7 +58,7 @@
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(../img/hero/hero-tablet-img.jpg);
+      url(/img/hero/hero-tablet-img.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -67,7 +71,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(../img/hero/hero-tablet-img@2x.jpg);
+        url(/img/hero/hero-tablet-img@2x.jpg);
       background-size: cover;
       background-position: center;
     }
@@ -85,7 +89,7 @@
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(../img/hero/hero-desktop-img.jpg);
+      url(/img/hero/hero-desktop-img.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -99,7 +103,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(../img/hero/hero-tablet-img@2x.jpg);
+        url(/img/hero/hero-tablet-img@2x.jpg);
       background-size: cover;
       background-position: center;
     }

@@ -1,6 +1,4 @@
-:root {
-   --color-white-opacity: rgba(255, 255, 255, 0.5);
-}
+
 
 .advantages {
    background-color: var(--color-dark-purple);
@@ -18,7 +16,7 @@
 @media (min-width: 1200px) {
    .advantages {
       padding-top: 50px;
-      padding-bottom: 51px;
+      padding-bottom: 50px;
       height: 344px;
    }
 }
