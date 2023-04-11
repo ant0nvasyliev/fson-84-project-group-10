@@ -101,6 +101,7 @@
 @media screen and (min-width: 1200px) {
     .card-wrap {
         flex-direction: row;
+        gap: 19px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -110,7 +111,8 @@
 }
 
 .components-item {
-    position: relative;    
+    position: relative;  
+    overflow: hidden;  
     width: 335px;
     height: 270px;
     border-radius: 15px;
@@ -157,6 +159,8 @@
 }
 .components-img {
     display: inline;
+    width: 224px;
+    height: 171px;
     margin-bottom: 25px;
 }
 
@@ -230,11 +234,15 @@
 }
 .about-text {
     max-height: 146px;
-    overflow: scroll;
+    overflow: auto;
+    padding-right: 16px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
+}
+.about-text-wrap {
+    padding-right: 2px;
 }
 
 
@@ -243,3 +251,5 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
      */
+
+    
