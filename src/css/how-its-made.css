@@ -1,3 +1,26 @@
+.chocolate-video {
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+.chocolate-video {
+        width: 614px;
+        height: 400px;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.chocolate-video {
+        width: 600px;
+        height: 400px;
+        
+    }
+}
+
 .how-its-made-title{
     font-weight: 600;
     font-size: 20px;
