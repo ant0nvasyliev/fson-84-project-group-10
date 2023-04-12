@@ -816,102 +816,170 @@
 
       <!-- Анна -->
       <section class="subscribe" id="subscribe">
-    <div class="container">
-        <h2 class="subscribe_title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
-        <p class="subscribe_text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a work of art that is sure to please.</p>
-        <button class="subscribe_button js-open-modal" data-modal="5" type="button">Subscribe</button>
-    </div>
+  <div class="container">
+    <h2 class="subscribe_title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+    <p class="subscribe_text">
+      From the velvety texture to the rich and complex flavor, our New Chocolate
+      is a true indulgence that will leave you craving more. Made with only the
+      finest ingredients and handcrafted with the utmost care, each piece is a
+      work of art that is sure to please.
+    </p>
+    <button class="subscribe_button js-open-modal" data-modal="5" type="button">
+      Subscribe
+    </button>
+  </div>
 </section>
 
 <div class="overlay js-overlay-modal"></div>
 
-<form class="subscribe-modal__form modal" data-modal="5" name="subscribe-modal" autocomplete="off">
-    <div class="subscribe-modal__background">    
+<form
+  class="subscribe-modal__form modal"
+  data-modal="5"
+  name="subscribe-modal"
+  autocomplete="off"
+>
+  <div class="subscribe-modal__background">
     <button type="button" class="subscribe-modal__button js-modal-close">
-        <svg class="subscribe-modal__icon" width="24" height="24">
-            <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
-        </svg>
+      <svg class="subscribe-modal__icon" width="24" height="24">
+        <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
+      </svg>
     </button>
-    </div>
-    <div class="subscribe-modal">
-    <h2 class="subscribe-modal__title">Explore our <br><span class="subscribe-modal__span">new chocolate</span> first!</h2>
+  </div>
+  <div class="subscribe-modal">
+    <h2 class="subscribe-modal__title">
+      Explore our <br /><span class="subscribe-modal__span">new chocolate</span>
+      first!
+    </h2>
     <div class="subscribe-modal__position">
-    <input class="subscribe-modal__input" type="email" name="email" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Enter your email"/>
-    <button class="subscribe-modal__submit" type="submit">Submit</button>
-    
+      <input
+        class="subscribe-modal__input"
+        type="email"
+        name="email"
+        required
+        pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+        placeholder="Enter your email"
+      />
+      <button class="subscribe-modal__submit" type="submit">Submit</button>
     </div>
-    </div>
+  </div>
 </form>
 
 <form autocomplete="off" class="buy-now-modal__form modal" data-modal="4">
-    <button type="button" class="buy-now-modal__close js-modal-close">
-        <svg width="24" height="24">
-            <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
-        </svg>
-    </button>
-    <h2 class="buy-now-modal__title">
-        BUY <span class="buy-now-modal__span">NOW</span>
-    </h2>
-    <ul class="buy-now-modal__box_li">
-        <li class="buy-now-modal__list">
-            <img class="buy-now-modal__img"
-                 srcset="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png 1x, /fson-84-project-group-10/assets/modal-100g-img@2x-82abd1f6.png 2x"
-                 src="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png"
-                 alt="milk chocolate"
-                 width="84"
-                 height="69"
-                 >
-            <button type="button" class="buy-now-modal__p">100 g</button>
-        </li>
-        <li class="buy-now-modal__list">
-            <img class="buy-now-modal__img"
-                 srcset="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png 1x, /fson-84-project-group-10/assets/modal-200g-img@2x-f8a53af0.png 2x"
-                 src="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png"
-                 alt="white chocolate"
-                 width="84" 
-                 height="69">
-            <button type="button" class="buy-now-modal__p">200 g</button>
-        </li>
-        <li class="buy-now-modal__list">
-            <img class="buy-now-modal__img" 
-                 srcset="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png 1x, /fson-84-project-group-10/assets/modal-300g-img@2x-0b5ea610.png 2x"
-                 src="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png"
-                 alt="black chocolate"
-                 width="84" 
-                 height="69">
-            <button type="button" class="buy-now-modal__p">300 g</button>
-        </li>
-    </ul>
-    <label class="buy-now-modal__label" for="name">Personal information</label>
-    <div class="buy-now-modal__name">
-        <input class="buy-now-modal__input" type="text" name="name" id="name" required pattern="[a-zA-Z]+" placeholder="Name"/>
-        <input class="buy-now-modal__input" type="text" name="surname" required pattern="[a-zA-Z]+" placeholder="Surname"/>
+  <button type="button" class="buy-now-modal__close js-modal-close">
+    <svg width="24" height="24">
+      <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#menu-modal-close-icon"></use>
+    </svg>
+  </button>
+  <h2 class="buy-now-modal__title">
+    BUY <span class="buy-now-modal__span">NOW</span>
+  </h2>
+  <ul class="buy-now-modal__box_li">
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png 1x, /fson-84-project-group-10/assets/modal-100g-img@2x-82abd1f6.png 2x"
+        src="/fson-84-project-group-10/assets/modal-100g-img-9e8a10a6.png"
+        alt="milk chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">100 g</button>
+    </li>
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png 1x, /fson-84-project-group-10/assets/modal-200g-img@2x-f8a53af0.png 2x"
+        src="/fson-84-project-group-10/assets/modal-200g-img-4a07cea9.png"
+        alt="white chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">200 g</button>
+    </li>
+    <li class="buy-now-modal__list">
+      <img
+        class="buy-now-modal__img"
+        srcset="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png 1x, /fson-84-project-group-10/assets/modal-300g-img@2x-0b5ea610.png 2x"
+        src="/fson-84-project-group-10/assets/modal-300g-img-eb9938ed.png"
+        alt="black chocolate"
+        width="84"
+        height="69"
+      />
+      <button type="button" class="buy-now-modal__p">300 g</button>
+    </li>
+  </ul>
+  <label class="buy-now-modal__label" for="name">Personal information</label>
+  <div class="buy-now-modal__name">
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="name"
+      id="user-name"
+      required
+      pattern="[a-zA-Z]+"
+      placeholder="Name"
+    />
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="surname"
+      required
+      pattern="[a-zA-Z]+"
+      placeholder="Surname"
+    />
+  </div>
+  <label class="buy-now-modal__label" for="email">Email</label>
+  <input
+    class="buy-now-modal__input"
+    type="email"
+    name="email"
+    id="user-email"
+    required
+    pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+    placeholder="Enter your email"
+  />
+  <label class="buy-now-modal__label" for="tel">Phone number</label>
+  <div class="buy-now-modal__tel_box">
+    <input
+      class="buy-now-modal__input buy-now-modal__input_tel"
+      type="tel"
+      name="tel"
+      id="user-tel"
+      required
+      pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+      placeholder="Phone number"
+    />
+    <div class="buy-now-modal__box_icon">
+      <svg class="buy-now-modal__tel_icon" width="24" height="18">
+        <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#flag-icon"></use>
+      </svg>
+      <p>+380</p>
     </div>
-    <label class="buy-now-modal__label" for="email">Email</label>
-    <input class="buy-now-modal__input" type="email" name="email" id="email" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Enter your email"/>
-    <label class="buy-now-modal__label" for="tel">Phone number</label>
-    <div class="buy-now-modal__tel_box">
-        <input  class="buy-now-modal__input buy-now-modal__input_tel" type="tel" name="tel" id="tel" required pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" placeholder="Phone number"/>
-        <div class="buy-now-modal__box_icon">
-            <svg class="buy-now-modal__tel_icon" width="24" height="18">
-                <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#flag-icon"></use>
-             </svg>
-            <p>+380</p>
-        </div>
-    </div>
-    <label class="buy-now-modal__label" for="card">Card number </label>
-    <div class="buy-now-modal__card_box">
-        <input class="buy-now-modal__input" type="text" name="card" id="card" required pattern="[0-9]{13,16}" placeholder="Enter card"/>
-        <svg class="buy-now-modal__card_icon" width="32" height="21">
-            <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#mastercard-icon"></use>
-        </svg>
-    </div>
-    <label class="buy-now-modal__label" for="comment">Comment</label>
-    <textarea class="buy-now-modal__textarea" name="comment" id="comment" placeholder="Enter text"></textarea>
-    <button class="buy-now-modal__button" type="submit">Submit</button>
+  </div>
+  <label class="buy-now-modal__label" for="card">Card number </label>
+  <div class="buy-now-modal__card_box">
+    <input
+      class="buy-now-modal__input"
+      type="text"
+      name="card"
+      id="card"
+      required
+      pattern="[0-9]{13,16}"
+      placeholder="Enter card"
+    />
+    <svg class="buy-now-modal__card_icon" width="32" height="21">
+      <use href="/fson-84-project-group-10/assets/sprite-76b01e8c.svg#mastercard-icon"></use>
+    </svg>
+  </div>
+  <label class="buy-now-modal__label" for="comment">Comment</label>
+  <textarea
+    class="buy-now-modal__textarea"
+    name="comment"
+    id="user-comment"
+    placeholder="Enter text"
+  ></textarea>
+  <button class="buy-now-modal__button" type="submit">Submit</button>
 </form>
-
-
 
 
       <!-- Илья Мельниченко -->
