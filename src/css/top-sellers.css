@@ -32,18 +32,7 @@
 .top-sellers-text {
   margin-right: 567px;
 }
-.top-sellers-input {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 14px 40px;
-  gap: 14px;
 
-  height: 50px;
-  border: #fd9222;
-  background: #fd9222;
-  border-radius: 100px;
-}
 .top-sellers-input-text {
   width: 82px;
   height: 22px;
@@ -55,6 +44,9 @@
   line-height: 22px;
   color: #ffffff;
 } */
+.top-sellers-input {
+  transition: background-color,color .2s linear;
+}
 .top-sellers-input:hover, .top-sellers-input:focus {
   background: #FCF1E0;
   color: var(--color-orange);
