@@ -1,4 +1,5 @@
 
+
 .reviews {
     padding-bottom: 72px;
       background-color: #FAFAFA;
@@ -44,7 +45,8 @@ border-radius: 15px;
 
 .reviews-img {
     position: absolute;
-    left: 130px;
+    left: 51%;
+    transform: translateX(-50%);
     bottom: 160px;
 }
 .reviews-name {
@@ -157,9 +159,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .modal {
-    position: fixed;
+  
     opacity: 0;
     visibility: hidden;
+    position: fixed;
     width: 311px;
      height: 471px;
      top: 50%;
@@ -568,11 +571,7 @@ opacity: 1;
        border-radius: 15px;
        width: 360px;
     }
-    .reviews-img {
-        position: absolute;
-        left: 140px;
-    }
-   
+    
      .reviews-text {
         margin-right: 24px;
         margin-left: 24px;
