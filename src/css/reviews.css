@@ -155,7 +155,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .reviews-modal-btn:hover,
 .reviews-modal-btn:focus {
     background-color: #FCF1E0;
-    fill: #D44528
+    fill: #D44528; 
    
 }
 .modal {
@@ -397,7 +397,7 @@ opacity: 1;
             margin-bottom: 50px;
         }
         .modal {
-            position: absolute;
+            position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
