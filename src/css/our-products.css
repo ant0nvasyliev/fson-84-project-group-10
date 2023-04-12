@@ -1,12 +1,13 @@
 :root {
     --color-section-background-light: #fafafa;
     --color-product-text:rgba(17, 17, 17, 0.7);
+    --color-products-border:rgba(17, 17, 17, 0.1);
+
  }
 
 
 .section-products {
     padding-bottom: 72px;
-    background-color: var(--color-section-background-light);
 }
 
 @media screen and (min-width: 768px) {
@@ -43,18 +44,6 @@
     }
 }
 
-/* .products-title {
-    margin-bottom: 50px;
-
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-
-    color: var(--color-black);
-} */
 
 .products-title-orange {
     color: var(--color-orange);
@@ -72,17 +61,6 @@
 }
 
 
-/* .products-item {
-    flex-basis: calc((100% - 54px)/ 4);
-    width: 270px;
-    height: 364px;
-    
-    background: var(--color-white);
-    border: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 15px;
-} */
-
-
 .products-thumb {
     text-align: center;
     padding: 32px 53px;
@@ -93,12 +71,6 @@
         padding: 32px 20px;
     }
 }
-
-/* .products-thumb {
-    text-align: center;
-    padding: 32px 20px;
-} */
-
 
 .products-thumb >img {
     margin-bottom: 8px;
@@ -138,11 +110,28 @@
     color: var(--color-black);
     
     background: var(--color-section-background-light);
-    border: 1px solid rgba(17, 17, 17, 0.1);
+    border: 1px solid var(--color-products-border);
     border-radius: 100px;
 }
 
 /* Added  Slider */
+
+.products-thumb-swiper {
+    position: relative;
+}
+
+@media screen and (min-width: 375px) {
+    .products-thumb-swiper {
+        min-height: 397px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .products-thumb-swiper {
+        min-height: 409px;
+    }
+}
+
 
 .swiper.products {
     width: 100%;
@@ -151,18 +140,25 @@
 
 .swiper-slide.products-item {
     background: var(--color-white);
-    border: 1px solid rgba(17, 17, 17, 0.1);
+    border: 1px solid var(--color-products-border);
     border-radius: 15px;
 }
 
-/* .swiper-pagination {
-    margin-top: 32px;
-} */
+
+.products-thumb-swiper >.swiper-pagination {
+    bottom: -4px;
+}
+
+@media screen and (min-width: 305px) and (max-width: 375px) {
+    .products-thumb-swiper >.swiper-pagination {
+        bottom: -38px;
+    }
+}
 
 .swiper-pagination-bullet {
     width: 13px;
     height: 13px;
-    background-color: solid rgba(17, 17, 17, 0.1);
+    background-color: var(--color-product-text);
 }
 
 .swiper-pagination-bullet-active {
@@ -171,3 +167,4 @@
     border-radius: 50px;
     background-color: var(--color-orange);
 }
+

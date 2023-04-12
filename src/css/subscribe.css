@@ -1,7 +1,4 @@
 
-.subscribe-background {
-    background-color: #FAFAFA;
-}
 .subscribe {
     background-size: cover;
     text-align: center;
@@ -68,7 +65,7 @@
 }
 .subscribe_title {
     display: block;
-    width: 291px;
+    max-width: 291px;
     height: 48px;
     margin-bottom: 24px;
     margin-left: auto;
@@ -79,6 +76,11 @@
     letter-spacing: -0.03em;
     color: var(--color-white);
 }
+@media screen and (min-width: 375px) {
+    .subscribe_title {
+    width: 291px;
+         }
+    }
 @media screen and (min-width: 768px) {
 .subscribe_title {
 width: 378px;
@@ -90,7 +92,7 @@ line-height: 28px;
 }
 .subscribe_text {
     display: inline-block;
-    width: 326px;
+    max-width: 326px;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 14px;
@@ -100,24 +102,30 @@ line-height: 28px;
 }
 @media screen and (min-width: 768px) {
     .subscribe_text {
-        width:467px;
-
+        max-width: 467px;
     }
 }
 .subscribe_button {
     display: block;
     margin: 0 auto;
     background-color: var(--color-orange);
-    width: 172px;
-    height: 50px;
+    width: 128px;
+    height: 41px;
     border-radius: 100px;
     border: none;
     padding: 12px 28px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 17.07px;
     color: var(--color-white);
     transition: background-color, color 200ms linear;
+}
+@media screen and (min-width: 768px) {
+    .subscribe_button {
+        width: 172px;
+        height: 50px;
+        font-size: 18px;
+    }
 }
 .subscribe_button:hover, .subscribe_button:focus {
     background: #FCF1E0;
@@ -199,7 +207,13 @@ line-height: 28px;
 }
 .subscribe-modal__icon {
     stroke: var(--color-white);
+    transition: stroke, color 200ms linear;
 }
+.subscribe-modal__button .subscribe-modal__icon:hover,
+.subscribe-modal__button .subscribe-modal__icon:focus {
+    stroke: var(--color-orange);
+}
+
 @media screen and (min-width: 768px) {
     .subscribe-modal__icon {
         width: 28px;
@@ -263,10 +277,6 @@ line-height: 28px;
         height: 52px;
     }
 }
-
-
-
-
 .buy-now-modal__form {
     display: none;
     position: fixed;
@@ -282,7 +292,6 @@ line-height: 28px;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 32px 24px;
-    background: var(--color-section-background);
 }
 .buy-now-modal__form.active {
     display: block;
@@ -308,6 +317,7 @@ line-height: 28px;
     stroke: var(--color-black);
     background-color: var(--color-section-background);
     border: none;
+    transition: stroke, color 200ms linear;
 }
 @media screen and (min-width:768px) {
     .buy-now-modal__close{
@@ -316,6 +326,10 @@ line-height: 28px;
         top: 24px;
         right: 24px;
     }
+}
+.buy-now-modal__close:hover,
+.buy-now-modal__close:focus {
+    stroke: var(--color-orange);
 }
 .buy-now-modal__title {
     font-weight: 600;
